@@ -1,0 +1,34 @@
+<div class="logo">
+  <img src="http://sokari.co.uk/wp-content/themes/modern-studio-pro/images/logo-circle.png" height="50px">
+  <h1>Fitness Tracker</h1>
+
+</div>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ececec">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav mx-auto">
+      <button class="nav-item nav-link btn" (click)="landingpage()">Home</button> 
+      <button class="nav-item nav-link btn" (click)="placeAppointment()">Place Appointment</button>
+      <button class="nav-item nav-link btn" (click)="viewAppointment()">View Appointment</button>
+      <button class="nav-item nav-link btn" (click)="contactUspage()">Contact Us</button>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="row">
+    <div class="col"  style="background-color: #ececec">
+      <button class="btn" (click)="landingpage()">Home</button><br>
+      <button class="btn" (click)="placeAppointment()">Place Appointment</button><br>
+      <button class="btn" (click)="viewAppointment()">View Appointment</button><br>
+      <button class="btn" (click)="contactUspage()">Contact Us</button>
+    </div>
+    <div class="col-10">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+

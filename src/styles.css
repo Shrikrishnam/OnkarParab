@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.logo{
+    background-color: rgb(176, 255, 255);
+    padding: 10px;
+    
+}
+.logo h1{
+    text-align: center;
+}
+
+.logo img{
+    position: absolute;
+    left: 25px;
+}
